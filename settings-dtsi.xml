@@ -48,20 +48,7 @@
 	<profile>
 		<id>default-repositories</id>
 		<!-- Profil par défaut (indépendant de la plateforme de déploiement) -->
-	<properties>
-		<downloadSources>true</downloadSources>
-		<log4j.version>1.2.14</log4j.version>
-		<org.springframework.version>3.0.6.RELEASE</org.springframework.version>
-		<org.hibernate.version>3.6.7.Final</org.hibernate.version>
-		<org.unitils.version>3.1</org.unitils.version>
-		
-		
-		<java.compile.version>1.6</java.compile.version>
-		<project.outputEncoding>UTF-8</project.outputEncoding>
-		<project.build.sourceEncoding>${project.outputEncoding}</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>${project.outputEncoding}</project.reporting.outputEncoding>
-				 
-	</properties>
+	
 			<repositories>
 				<repository>
 					<id>internal</id>
