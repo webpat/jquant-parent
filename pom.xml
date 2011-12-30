@@ -11,15 +11,18 @@
   <artifactId>jquant-parent</artifactId>
   <packaging>pom</packaging>
   <name>jquant-parent</name>
-  <version>1.0.0b1</version>
+  <version>${project.version}</version>
   
   <properties>
+		<!-- Version  -->
+		<project.version>1.0.0b1</project.version>	
+		
+		
 		<downloadSources>true</downloadSources>
 		<log4j.version>1.2.14</log4j.version>
 		<org.springframework.version>3.0.6.RELEASE</org.springframework.version>
 		<org.hibernate.version>3.6.7.Final</org.hibernate.version>
 		<org.unitils.version>3.1</org.unitils.version>
-
 		<java.compile.version>1.6</java.compile.version>
 		<project.outputEncoding>UTF-8</project.outputEncoding>
 		<project.build.sourceEncoding>${project.outputEncoding}</project.build.sourceEncoding>
@@ -156,6 +159,28 @@
   
   	<dependencies>
   	
+  	<!-- Dépendances de projet  -->
+  	<dependency>
+		<groupId>org.jquant</groupId>
+		<artifactId>jquant-core</artifactId>
+		<version>${project.version}</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.jquant</groupId>
+		<artifactId>jquant-louxor</artifactId>
+		<version>${project.version}</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.jquant</groupId>
+		<artifactId>jquant-strategy</artifactId>
+		<version>${project.version}</version>
+	</dependency>
+  	
+  	<!-- Dépendances externes  -->
+  	
+  	
   	<!-- The AllMighty Database -->
   	<dependency>
 	    <groupId>mysql</groupId>
@@ -277,7 +302,7 @@
   	
 	
 	<dependency>
-		<groupId>org.apache</groupId>
+		<groupId>org.apache.commons</groupId>
 		<artifactId>commons-lang3</artifactId>
 		<version>3.0.1</version>
 	</dependency>
@@ -439,6 +464,7 @@
   <module>../jquant-core</module>
   <module>../jquant-louxor</module>
   <module>../jquant-strategy</module>
+  <module>../jquant-example</module>
   
   </modules>
   
