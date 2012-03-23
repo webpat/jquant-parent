@@ -459,11 +459,10 @@
   
   </dependencyManagement>
  
- <modules>
+  <modules>
   
   <module>../jquant-core</module>
   <module>../jquant-louxor</module>
-  <module>../jquant-strategy</module>
   <module>../jquant-example</module>
   
   </modules>
