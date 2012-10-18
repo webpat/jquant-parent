@@ -11,11 +11,11 @@
   <artifactId>jquant-parent</artifactId>
   <packaging>pom</packaging>
   <name>jquant-parent</name>
-  <version>${project.version}</version>
+  <version>1.0-b1</version>
   
   <properties>
-		<!-- Version  -->
-		<project.version>1.0b1</project.version>	
+		<!-- Version used in the sub modules -->
+		<project.version>1.0-b1</project.version>	
 		
 		
 		<downloadSources>true</downloadSources>
